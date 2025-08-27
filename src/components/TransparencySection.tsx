@@ -17,21 +17,21 @@ type Item = {
 
 const items: Item[] = [
   {
-    title: "Fundación Autorizada",
+    title: "Fundación autorizada",
     subtitle: "Oficio 600-01-06-00-00-2021-1525",
     body:
       "Autorización oficial desde diciembre 10, 2022. Tus donaciones son 100% deducibles de impuestos.",
     icon: ShieldCheck,
   },
   {
-    title: "Transparencia Financiera",
+    title: "Transparencia financiera",
     subtitle: "Reportes anuales disponibles",
     body:
       "Publicamos informes financieros anuales detallados. Cada donación es rastreada y utilizada exclusivamente para nuestros programas.",
     icon: BarChart3,
   },
   {
-    title: "Seguimiento de Impacto",
+    title: "Seguimiento de impacto",
     subtitle: "Resultados medibles",
     body:
       "Proporcionamos métricas claras del impacto en beneficiarios y resultados alcanzados en nuestras comunidades.",
@@ -46,7 +46,7 @@ export default function TransparencySection() {
         {/* Left: cards */}
         <div>
           <h2 className="text-4xl font-display font-extrabold text-blue-700 text-center md:text-left">
-            Transparencia <span className="text-gray-900">y Confianza</span>
+            Transparencia <span className="text-gray-900">y confianza</span>
           </h2>
           <p className="font-sans text-gray-700 mt-3 mb-8 text-center md:text-left">
             Somos una fundación autorizada que opera con total transparencia.

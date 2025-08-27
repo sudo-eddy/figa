@@ -1,27 +1,38 @@
-https://vercel.com/signup
+Pasos para desplegar figa en Vercel
 
-Go to Vercel dashboard
-.
+Clonar el repositorio existente
+Clona este repo:
+https://github.com/sudo-eddy/figa/tree/main
 
-Click New Project → Import Git Repository.
+Sube el código como un nuevo repositorio en tu propia cuenta de GitHub.
 
-Select your repo sudo-eddy/figa.
+Crear cuenta en Vercel
+Regístrate en https://vercel.com/signup
 
-Configure build settings:
+Usa la opción de unión con GitHub para que se conecte directamente a tu cuenta.
 
-Framework: Next.js
+Importar el proyecto
 
-Build Command: next build
+En el panel de Vercel, haz clic en New Project → Import Git Repository.
 
-Output Directory: leave default (.vercel/output auto-managed)
+Selecciona tu repositorio recién creado con el nombre figa.
 
-Add Environment Variables:
+Haz clic en Deploy.
 
-NEXT_PUBLIC_BASE_URL →
+✅ Vercel te asignará un dominio aleatorio del tipo https://figa-xxxx.vercel.app.
 
-For Preview: https://<your-preview-url>.vercel.app
+Configurar tu dominio existente
 
-For Production: (after first deploy) update to https://figa.vercel.app or your custom domain.
+Ve a la sección Domains en Vercel.
 
-Deploy 🎉
+Actualiza los registros DNS en el panel de la empresa donde compraste tu dominio (GoDaddy, Namecheap, Google Domains, etc.), siguiendo las instrucciones que da Vercel.
 
+Una vez propagados los cambios DNS, tu dominio apuntará a tu app en Vercel.
+
+Alternativa si no se puede configurar el dominio actual
+
+Podemos comprar un dominio nuevo para esta página (ejemplo: figaweb.org).
+
+El dominio viejo se puede usar solo como interno, por ejemplo:
+
+`internal.figa.org/pacientes`

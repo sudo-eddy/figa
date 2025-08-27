@@ -11,10 +11,10 @@ import {
 } from "lucide-react";
 
 const stats = [
-    { number: "500+", label: "Niños Protegidos", icon: Baby },
-    { number: "200+", label: "Familias Apoyadas", icon: Users },
-    { number: "50+", label: "Talleres Impartidos", icon: GraduationCap },
-    { number: "15+", label: "Comunidades Atendidas", icon: Home },
+    { number: "500+", label: "Niños protegidos", icon: Baby },
+    { number: "200+", label: "Familias apoyadas", icon: Users },
+    { number: "50+", label: "Talleres impartidos", icon: GraduationCap },
+    { number: "15+", label: "Comunidades atendidas", icon: Home },
 ];
 
 export default function ImpactSection() {
@@ -23,7 +23,7 @@ export default function ImpactSection() {
             <div className="max-w-7xl mx-auto text-center">
                 {/* Section Heading */}
                 <h2 className="text-4xl font-display font-bold text-blue-700 mb-4">
-                    Nuestro <span className="text-black">Impacto</span>
+                    Nuestro <span className="text-black">impacto</span>
                 </h2>
                 <p className="font-sans text-gray-700 max-w-2xl mx-auto mb-12">
                     Más de una década protegiendo a la infancia y construyendo comunidades más seguras a través de prevención, apoyo y educación especializada.

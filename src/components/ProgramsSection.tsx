@@ -68,7 +68,7 @@ export default function ProgramsSection() {
     >
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-4xl font-display font-bold text-gray-900 mb-3">
-          Nuestros <span className="text-blue-600">Programas</span>
+          Nuestros <span className="text-blue-600">programas</span>
         </h2>
         <p className="font-sans text-gray-600 max-w-2xl mx-auto mb-10">
           Programas integrales diseñados para prevenir, proteger y sanar. Cada

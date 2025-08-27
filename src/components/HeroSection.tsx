@@ -78,7 +78,7 @@ export default function HeroSection() {
                         <div className="absolute bottom-2 right-2 bg-orange-500 text-white px-5 py-3 text-xs rounded-lg font-bold shadow-md inline-flex items-center gap-2">
                             {/* Example with icon */}
                             <Award className="h-4 w-4 text-white" strokeWidth={2} aria-hidden />
-                            12+ Años de experiencia
+                            12+ años de experiencia
                         </div>
                     </div>
                 </div>

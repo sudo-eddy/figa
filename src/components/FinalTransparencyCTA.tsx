@@ -25,12 +25,12 @@ export default function FinalTransparencyCTA() {
           {/* Primary actions */}
           <div className="flex justify-center gap-4 flex-wrap">
             <Link
-              href="/transparencia#documentos"
+              href="/transparencia"
               className="inline-flex items-center gap-2 bg-blue-600 text-white px-5 py-2 rounded-md 
                          font-display font-semibold hover:bg-blue-700 transition"
             >
               <FileText className="h-5 w-5" />
-              Ver Documentos
+              Ver documentos
               <ChevronRight className="h-4 w-4" />
             </Link>
             <Link
@@ -39,7 +39,7 @@ export default function FinalTransparencyCTA() {
                          font-display font-semibold hover:bg-orange-700 transition"
             >
               <HandCoins className="h-5 w-5" />
-              Donar Ahora
+              Donar ahora
               <ChevronRight className="h-4 w-4" />
             </Link>
           </div>
@@ -48,22 +48,22 @@ export default function FinalTransparencyCTA() {
           <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
               {
-                label: "12+ Años de Experiencia",
+                label: "12+ años de experiencia",
                 Icon: Award,
                 tint: "text-blue-600",
               },
               {
-                label: "Auditorías Anuales",
+                label: "Auditorías anuales",
                 Icon: FileCheck,
                 tint: "text-emerald-600",
               },
               {
-                label: "Alianzas Estratégicas",
+                label: "Alianzas estratégicas",
                 Icon: Handshake,
                 tint: "text-indigo-600",
               },
               {
-                label: "Presencia Regional",
+                label: "Presencia regional",
                 Icon: MapPin,
                 tint: "text-rose-600",
               },

@@ -1,4 +1,3 @@
-// @ts-nocheck
 "use client";
 
 import React, { useEffect, useRef } from "react";
@@ -10,6 +9,13 @@ type Props = {
   paypalClientId: string;         // e.g. process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID
   paypalCurrency?: string;        // default: MXN
   paypalAmount?: string;          // default: "250.00"
+};
+
+type PayPalActions = {
+  order: {
+    create: (data: unknown) => Promise<string>;
+    capture: () => Promise<void>;
+  };
 };
 
 function StripeBuyButton({
@@ -49,19 +55,20 @@ export default function PayProvidersCard({
   // Load PayPal SDK once, then render buttons once
   useEffect(() => {
     const renderButtons = () => {
-      // @ts-ignore - PayPal adds a global
+      // @ts-expect-error - PayPal adds a global `paypal` object
       if (window.paypal && paypalContainerRef.current && !paypalRenderedRef.current) {
-        // @ts-ignore
+        // @ts-expect-error - PayPal's `Buttons` method is dynamically added
         window.paypal
           .Buttons({
             style: { shape: "pill", color: "gold", label: "donate", layout: "vertical" },
-            createOrder: (_data: any, actions: any) =>
+            createOrder: (_data: unknown, actions: PayPalActions) =>
               actions.order.create({
                 purchase_units: [
                   { amount: { value: paypalAmount, currency_code: paypalCurrency } },
                 ],
               }),
-            onApprove: (_data: any, actions: any) => actions.order.capture(),
+            onApprove: (_data: unknown, actions: PayPalActions) =>
+              actions.order.capture(),
           })
           .render(paypalContainerRef.current);
         paypalRenderedRef.current = true;

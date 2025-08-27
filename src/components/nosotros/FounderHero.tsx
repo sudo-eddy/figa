@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { founder } from "@/data/founder";
-import { Award, HandCoins, Mail, User, MessageCircle } from "lucide-react";
+import { Award, HandCoins, User, MessageCircle } from "lucide-react";
 
 export default function FounderHero() {
   return (

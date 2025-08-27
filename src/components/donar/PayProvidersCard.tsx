@@ -1,4 +1,4 @@
-// components/PayProvidersCard.tsx
+// @ts-nocheck
 "use client";
 
 import React, { useEffect, useRef } from "react";

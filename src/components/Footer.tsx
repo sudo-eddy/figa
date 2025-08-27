@@ -9,6 +9,7 @@ import {
   FaTiktok,
   FaWhatsapp
 } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -17,7 +18,7 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <img
+            <Image
               src="/images/logo.png"
               alt="Fundación Granito"
               className="h-22 w-auto"

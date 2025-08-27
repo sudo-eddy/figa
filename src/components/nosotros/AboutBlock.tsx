@@ -1,7 +1,6 @@
 import {
     ShieldCheck,
     GraduationCap,
-    Brain,
     Landmark,
     BadgeCheck,
     Users,

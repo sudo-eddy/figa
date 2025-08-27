@@ -1,7 +1,6 @@
 import Hero from "@/components/transparencia/Hero";
 import KPICards from "@/components/transparencia/KPICards";
 import CommitmentsStrip from "@/components/transparencia/CommitmentsStrip";
-import DocsGrid from "@/components/transparencia/DocsGrid";
 
 export const metadata = {
   title: "Transparencia | Fundación Granito de Arena",
@@ -15,7 +14,6 @@ export default function TransparenciaPage() {
       <Hero />
       <KPICards />
       <CommitmentsStrip />
-      <DocsGrid />
     </main>
   );
 }

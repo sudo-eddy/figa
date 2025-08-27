@@ -9,7 +9,7 @@ import {
 
 const programs = [
   {
-    title: "Prevención Educativa",
+    title: "Prevención educativa",
     description:
       "Talleres especializados para niños, padres y educadores sobre identificación de riesgos, límites corporales y comunicación segura.",
     bullets: [
@@ -23,7 +23,7 @@ const programs = [
     dot: "text-blue-500",
   },
   {
-    title: "Apoyo Psicológico",
+    title: "Apoyo psicológico",
     description:
       "Atención psicológica especializada para sobrevivientes y sus familias, con enfoque en recuperación y fortalecimiento emocional.",
     bullets: [
@@ -38,7 +38,7 @@ const programs = [
     dot: "text-rose-500",
   },
   {
-    title: "Fortalecimiento Comunitario",
+    title: "Fortalecimiento comunitario",
     description:
       "Programas de sensibilización y capacitación para líderes comunitarios, instituciones y organizaciones aliadas.",
     bullets: [

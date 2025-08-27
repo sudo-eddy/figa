@@ -73,8 +73,8 @@ export default function ImpactSection() {
                     {/* Text */}
                     <div>
                         <h3 className="text-2xl font-display font-bold text-gray-800 mb-4">
-                            Transformando Vidas,{" "}
-                            <span className="text-blue-600">Construyendo Esperanza</span>
+                            Transformando vidas,{" "}
+                            <span className="text-blue-600">Construyendo esperanza</span>
                         </h3>
                         <p className="font-sans text-gray-700 mb-6">
                             Desde Tuxtla Gutiérrez, Chiapas, extendemos nuestro alcance a
@@ -87,21 +87,21 @@ export default function ImpactSection() {
                             <li className="flex items-start gap-2">
                                 <ShieldCheck className="h-5 w-5 text-emerald-500 flex-shrink-0" />
                                 <span>
-                                    <strong>Prevención Especializada:</strong> Educación para
+                                    <strong>Prevención especializada:</strong> Educación para
                                     niños, familias y comunidades.
                                 </span>
                             </li>
                             <li className="flex items-start gap-2">
                                 <Brain className="h-5 w-5 text-indigo-500 flex-shrink-0" />
                                 <span>
-                                    <strong>Apoyo Psicológico:</strong> Atención a sobrevivientes
+                                    <strong>Apoyo psicológico:</strong> Atención a sobrevivientes
                                     y familias.
                                 </span>
                             </li>
                             <li className="flex items-start gap-2">
                                 <Handshake className="h-5 w-5 text-blue-500 flex-shrink-0" />
                                 <span>
-                                    <strong>Alianzas Estratégicas:</strong> Trabajo con
+                                    <strong>Alianzas estratégicas:</strong> Trabajo con
                                     instituciones y embajadores.
                                 </span>
                             </li>

@@ -110,7 +110,7 @@ export default function TransparencySection() {
         <div className="relative">
           <div className="relative w-full h-64 md:h-[320px] rounded-2xl overflow-hidden shadow-2xl ring-1 ring-blue-100">
             <Image
-              src="/images/therapy.png"
+              src="/images/personal-therapy.png"
               alt="Sesión con familia"
               fill
               className="object-cover"
@@ -121,13 +121,13 @@ export default function TransparencySection() {
           <div className="absolute -right-3 -top-3 bg-blue-600 text-white text-sm px-4 py-3 rounded-lg shadow-md flex items-center gap-2">
             <Building2 className="h-5 w-5" />
             <span className="font-display font-semibold">
-              Fundación Autorizada
+              Fundación autorizada
             </span>
           </div>
           <div className="absolute -left-3 -bottom-3 bg-orange-500 text-white text-sm px-4 py-3 rounded-lg shadow-md flex items-center gap-2">
             <BadgeDollarSign className="h-5 w-5" />
             <span className="font-display font-semibold">
-              Deducible de Impuestos
+              Deducible de impuestos
             </span>
           </div>
         </div>

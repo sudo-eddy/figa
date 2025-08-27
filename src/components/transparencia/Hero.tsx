@@ -39,7 +39,7 @@ export default function Hero() {
               className="inline-flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-md font-semibold hover:bg-green-700"
             >
               <Home className="w-5 h-5" />
-              Portal Bienestar
+              Portal bienestar
             </Link>
           </div>
 
@@ -50,7 +50,7 @@ export default function Hero() {
 
         {/* Visual summary card */}
         <div className="rounded-2xl border border-gray-100 p-6 shadow-sm bg-white">
-          <h3 className="font-semibold text-gray-900">Resumen de Autorización</h3>
+          <h3 className="font-semibold text-gray-900">Resumen de autorización</h3>
           <dl className="mt-4 grid grid-cols-2 gap-4 text-sm">
             <div>
               <dt className="text-gray-500">Oficio</dt>

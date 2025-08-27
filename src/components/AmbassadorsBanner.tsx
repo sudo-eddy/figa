@@ -11,7 +11,7 @@ export default function AmbassadorsBanner() {
           <div className="absolute -right-10 -bottom-10 h-40 w-40 rounded-full border border-white/30" />
 
           <h3 className="text-2xl md:text-3xl font-extrabold mb-4">
-            Embajadores de Alto Perfil
+            Embajadores de alto perfil
           </h3>
 
           {/* Content with image */}
@@ -28,13 +28,13 @@ export default function AmbassadorsBanner() {
                   href="/noticias"
                   className="bg-white text-blue-700 font-semibold px-5 py-2 rounded-md hover:bg-gray-100 transition"
                 >
-                  Ver Noticias
+                  Ver noticias
                 </Link>
                 <Link
                   href="https://fundaciongranitodearena.ipzmarketing.com/f/QjJs1yuomuA"
                   className="bg-transparent border border-white px-5 py-2 rounded-md font-semibold hover:bg-white hover:text-blue-800 transition"
                 >
-                  Únete como Embajador
+                  Únete como embajador
                 </Link>
               </div>
             </div>

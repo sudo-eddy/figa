@@ -25,7 +25,7 @@ export default function BottomBanner() {
                          shadow-md hover:shadow-lg hover:-translate-y-0.5 transition-all"
             >
               <HandCoins className="h-5 w-5" />
-              Donar Ahora
+              Donar ahora
             </Link>
             <Link
               href="https://fundaciongranitodearena.ipzmarketing.com/f/QjJs1yuomuA"
@@ -33,7 +33,7 @@ export default function BottomBanner() {
                          font-display font-semibold hover:bg-white hover:text-blue-800 shadow-md hover:shadow-lg hover:-translate-y-0.5 transition-all"
             >
               <Users className="h-5 w-5" />
-              Participa como Voluntario
+              Participa como voluntario
             </Link>
           </div>
         </div>

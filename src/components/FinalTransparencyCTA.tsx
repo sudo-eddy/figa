@@ -15,7 +15,7 @@ export default function FinalTransparencyCTA() {
       <div className="max-w-5xl mx-auto">
         <div className="bg-white rounded-2xl shadow-lg ring-1 ring-black/5 px-8 py-10 text-center">
           <h3 className="text-2xl font-display font-extrabold text-gray-900 mb-2">
-            Transparencia Total en Cada Donación
+            Transparencia total en cada donación
           </h3>
           <p className="font-sans text-gray-600 mb-8">
             Accede a nuestros reportes financieros, auditorías y documentos de autorización.

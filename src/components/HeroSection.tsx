@@ -21,7 +21,7 @@ export default function HeroSection() {
             <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 items-center h-full">
                 <div>
                     <h1 className="text-4xl md:text-5xl font-display font-semibold leading-tight">
-                        Protegemos la <span className="text-orange-500">Infancia</span>
+                        Protegemos la <span className="text-orange-500">infancia</span>
                     </h1>
                     <p className="mt-4 text-lg text-gray-200 max-w-xl">
                         Prevención del abuso sexual infantil y apoyo psicológico especializado para construir comunidades más seguras.
@@ -37,7 +37,7 @@ export default function HeroSection() {
                             className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 px-5 py-2 rounded-md text-white font-semibold transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 focus:ring-offset-gray-900"
                         >
                             <HeartHandshake className="h-5 w-5" aria-hidden />
-                            Ayúdanos Donando
+                            Ayúdanos donando
                         </Link>
 
                         <Link
@@ -45,7 +45,7 @@ export default function HeroSection() {
                             className="inline-flex items-center gap-2 border border-white/80 px-5 py-2 rounded-md text-white font-semibold hover:bg-white hover:text-blue-900 transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white focus:ring-offset-gray-900"
                         >
                             <Users className="h-5 w-5" aria-hidden />
-                            Únete a la Causa
+                            Únete a la causa
                         </Link>
                     </div>
 
@@ -53,11 +53,11 @@ export default function HeroSection() {
                     <div className="mt-6 flex flex-wrap items-center gap-5 text-sm text-orange-200/90">
                         <span className="inline-flex items-center gap-2">
                             <ShieldCheck className="h-5 w-5 text-emerald-400" aria-hidden />
-                            Fundación Autorizada
+                            Fundación autorizada
                         </span>
                         <span className="inline-flex items-center gap-2">
                             <FileText className="h-5 w-5 text-sky-300" aria-hidden />
-                            Transparencia Total
+                            Transparencia total
                         </span>
                         <span className="inline-flex items-center gap-2">
                             <MapPin className="h-5 w-5 text-orange-300" aria-hidden />
@@ -78,7 +78,7 @@ export default function HeroSection() {
                         <div className="absolute bottom-2 right-2 bg-orange-500 text-white px-5 py-3 text-xs rounded-lg font-bold shadow-md inline-flex items-center gap-2">
                             {/* Example with icon */}
                             <Award className="h-4 w-4 text-white" strokeWidth={2} aria-hidden />
-                            12+ Años de Experiencia
+                            12+ Años de experiencia
                         </div>
                     </div>
                 </div>
